@@ -1,0 +1,43 @@
+
+.main-post {
+    max-width: 85%;
+}
+
+.featured-post {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.main-post {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 35px; 
+}
+
+/* felx box  */
+.details-post {
+    display: flex;
+    /* put items vertically */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-box {
+    padding: 20px 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    flex: calc(50% - 100px); 
+    flex-grow: 0; 
+    flex-shrink: 0; 
+    margin-bottom: 10px;
+}
+
+/* flex box  */
+.subscription-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    margin: 50px 0 0 0;
+    align-items: center;
+}

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/header-footer.css">
 </head>
 <body>
+    <!-- this is the main header that contains the home, about and contact  -->
     <header>
         <h1>Welcome to our Blog Website</h1>
         <nav>
+            <!-- unlisted items -->
             <ul>
                 <li><a href="#"> Home</a></li>
                 <li><a href="#"> About</a></li>
@@ -18,59 +21,72 @@
         </nav>
     </header>
 
+    <!-- this is the main section that contains the post cards (featured and the rest posts) -->
     <main>
+        <!-- this is the featured post which appear at the top of the main section -->
         <section class="featured-post">
             <h2>Featured Post</h2>
-            <p>This is the featured post. It will highlight a recent or important blog post.</p>
+            <h5>World</h5>
+            <h3>Air canada flight emergency landing</h3>
+            <h6>Oct 24</h6>
+            <p>To read more about this accedent, please click on the "Continue reading" below.</p>
+            <!-- go to the post design when clicking on Continue reading -->
             <a href="post.html" class="read-more">Continue reading</a>
         </section>
 
         <section class="blog-posts">
             <h2>Recent Posts</h2>
+            <!-- each div has a post card -->
             <div class="post-block"> 
+                <h5>Travel</h5>
+                <h3>Mexico City Travel Guide</h3>
+                <h6>Nov 12</h6>
+                <img src="static/images/mexico.jpg" alt="mexico image">
+                <p>It can be overwhelming to know where to start with so much to see and do.
+                   But do not worry, since I have provided you with a thorough travel guide to Mexico City. </p>
+                <a href="post.html" class="read-more">Continue reading</a>
+            </div> 
+            <div class="post-block">
+                <h5>News</h5>
+                <h3>Passenger Aircraft Srrounded by Fire Engines.</h3>
+                <h6>Nov 11</h6>
+                <img src="static/images/Emirates.png" alt="mexico image">
+                <p>Fire engines were called to assist an Airbus A380 after its landing at Birmingham airport
+                     saw blue smoke billow from the wheels.</p>
+                <a href="post.html" class="read-more">Continue reading</a>
+            </div> 
+            <div class="post-block">
                 <h5>World</h5>
                 <h3>Example Blog Post</h3>
                 <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
+                <p>This card represents an example blog post.</p>
+                <a href="post.html" class="read-more">Continue reading</a>
             </div> 
             <div class="post-block">
                 <h5>Design</h5>
-                <h3>Post Title 2</h3>
-                <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
+                <h3>Post Title </h3>
+                <h6>Nov 11</h6>
+                <p>This is a post card</p>
+                <a href="post.html" class="read-more">Continue reading</a>
             </div> 
             <div class="post-block">
                 <h5>World</h5>
-                <h3>Post Title 3</h3>
-                <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
+                <h3>Example Blog Post</h3>
+                <h6>Dec 29</h6>
+                <p>This card contains an example of blog post.</p>
+                <a href="post.html" class="read-more">Continue reading</a>
             </div> 
             <div class="post-block">
                 <h5>Design</h5>
-                <h3>Post Title 4</h3>
-                <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
-            </div> 
-            <div class="post-block">
-                <h5>World</h5>
-                <h3>Post Title 3</h3>
-                <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
-            </div> 
-            <div class="post-block">
-                <h5>Design</h5>
-                <h3>Post Title 4</h3>
-                <h6>Nov 12</h6>
-                <p>Short description of the post.</p>
-                <a href="post.html" class="read-more">Read More</a>
+                <h3>Post Title</h3>
+                <h6>Nov 9</h6>
+                <p>Representing post card.</p>
+                <a href="post.html" class="read-more">Continue reading</a>
             </div> 
         </section>
     </main>
+
+    <!-- the footer at the end of the page -->
 
     <footer>
         <p>© 2023 Pierre Backleh</p>

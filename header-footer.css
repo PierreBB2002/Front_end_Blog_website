@@ -1,0 +1,39 @@
+
+header {
+    background-color: #7b7e7ee3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #7b7e7ee3;
+    color: #fff;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    /* to display the navigator bar as a one line  */
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    /* the color of the hovered button  */
+    color: #431fa5
+}

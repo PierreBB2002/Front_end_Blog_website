@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Post Title</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mexico City Travel Guide</title>
+    <link rel="stylesheet" href="static/css/post-style.css">
+    <link rel="stylesheet" href="static/css/header-footer.css">
+    <link rel="stylesheet" href="static/css/main-components.css">
 </head>
 <body>
+    <!-- the main header of the post page -->
     <header>
-        <h1>My Blog</h1>
+        <h1>Welcome to our Blog Website</h1>
         <nav>
+            <!-- unlisted iteams (home, about and contact) -->
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -19,16 +23,56 @@
     </header>
 
     <main>
-        <article>
-            <h2>Blog Post Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            <img src="images/post-image.jpg" alt="Blog Post Image">
-            <p>...</p>
-        </article>
+        <!-- the top header part -->
+        <h2>Mexico City Travel Guide</h2>
+        <h6>Nov 12</h6>
+        <!-- the first section is for main post details -->
+        <section class="main-post">
+            <div class="details-post">
+                <p>It can be difficult to know where to start with their being so much to see and do. But worry not—I've got you covered with this in-depth travel guide to Mexico City. 
+                    I'll talk about safety issues, where to stay, and of course, all the incredible locations in Mexico City that you must see. </p>
+                <ol>
+                    <!-- listed iteams -->
+                    <li>The best areas to stay at </li>
+                    <li>Must-visit sites</li>
+                    <li>Cool areas to explore </li>
+                    <li>Fun things to do</li>
+                </ol>
+                <h3>1. The best areas to stay at in Mexico City</h3>
+                <p>If you want a place near the city center, I suggest to you this area to stay in.</p>
+                <!-- attached image -->
+                <figure>
+                    <img src="static/images/area-stay.png" alt="area to stay">
+                    <figcaption>A great area to stay in the city. </figcaption>
+                </figure>
+                <p>This neighborhood is near the park, Reforma Avenue, which is home to several well-known monuments, and the historic center is only a short drive away. There are a lot of eateries and coffee shops in this particular region.
+                    Given that it is a business district, it is undoubtedly extremely safe. </p>
+                <h3>2. Must Visit Sites in Mexico City</h3>
+                <p>The central square, Zócalo, also called Plaza de la Constitución, is the primary location you must see in Mexico City's historic district.
+                    At 57,600 square meters, it is among the biggest public squares in the world.
+                    When I arrived, I was very astounded by the square's size and the might of the enormous Mexican flag. </p>
+                <p>The Zócalo has hosted numerous significant occasions during its lengthy history.
+                    Other noteworthy locations, such as the National Palace and the Metropolitan Cathedral, can be found on various sides of the square.
+                    I strongly advise paying a brief visit to the City government building across from the cathedral, which houses a small but quite fascinating museum detailing important events in Mexico City.
+                    There is no charge to enter this museum. </p>
+            </div>
+        </section>
+
+        <!-- this section is for subscription -->
+        <section class="subscription-section">
+            <h3>Subscribe to our Website</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
     </main>
 
-    <footer>
-        <p>© 2023 My Blog</p>
-    </footer>
 </body>
+
+<!-- footer of the page  -->
+<footer>
+    <p>© 2023 Pierre Backleh</p>
+</footer>
+
 </html>
